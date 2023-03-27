@@ -1,0 +1,13 @@
+FUNCTION isPalindrome(word) : BOOLEAN
+    IF (word.length=1 OR word.length=0) THEN
+        return true
+    ELSE
+    IF (word[0]=word[length-1])THEN
+        return is_Palindrome(word.slice(1,-1))
+    else
+        return false
+    end_IF
+       
+    END_IF
+    
+END
